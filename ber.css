@@ -1,1 +1,137 @@
-hello
+body{
+  background-image:url(catback2.jpg);
+      background-size:cover; ;
+    background-position: center;
+    text-align: center;
+
+}
+
+.main{
+    height:300px;
+    font-family: Papyrus, fantasy;
+   color:pink;
+  line-height: 340px;
+
+    }
+.link{
+  height: 175px;
+  width: 30%;
+  border-radius: 10px;
+  background-size: cover;
+ background-position: center;
+ opacity: .5;
+ float:left;
+ margin:0 10px 10px 10px;
+
+}
+.top{
+      background-color:rgb(90, 252, 249);
+      height:20;
+      width:65%;
+      text-align: center;
+      font-size:60px;
+      font-family: 'Open Sans', sans-serif;
+      margin: auto;
+      float: left;
+      color:rgb(141, 97, 163);
+      border-radius: 10px;
+      margin:0px 0px 10px 10px;
+      line-height: 60px;
+
+    }
+    .link:hover{
+      font-size:60px;
+    }
+     a{color:rgb(141, 97, 163);
+      text-decoration: none;
+     }
+
+     .cat{
+      font-size: 50px;
+      text-align:center;
+       border-radius: 10px;
+  
+     }
+   
+
+     .nice{
+  height:300px;
+  width:300px;
+  float:left;
+  background-size: cover;
+  background-position: center;
+  transition-property: all;
+  transition-duration:5s;
+  transition-delay: 3s;
+  border:5px solid pink;
+     }
+     .nice:hover {
+     }
+     .nice .cat {
+      opacity: 1;
+     }
+     .nice:hover .cat{opacity:.2;
+    }
+    #pic_1:hover{
+    opacity: 0;
+}
+  #pic_1:hover{
+    opacity: 1;
+    background-image: url("bengal.jpg");
+}
+ #pic_2:hover{background-image: url("birman.jpg");
+
+}
+#pic_3:hover{
+  background-image: url("chartreux.jpg");
+  
+}
+#pic_4:hover{background-image: url("himalayan.jpg");
+}
+#pic_5:hover{
+  background-image: url("japanesebobtail.jpg");
+  
+}
+#pic_6:hover{background-image: url("norwegianforestcat.jpg");
+}
+#pic_7:hover{
+  background-image: url("ocicat.jpg");
+  
+}
+#pic_8:hover{background-image: url("persian.jpg");
+}
+#pic_9:hover{
+  background-image: url("ragdoll.jpg");
+
+
+}
+#pic_10:hover{background-image: url("siberian.jpg");
+
+}
+#pic_11:hover{
+  background-image: url("somali.jpg");
+  
+}
+#pic_12:hover{background-image: url("turkishvan.jpg");
+}
+
+@media(max-width: 655px){
+  .top{
+    display:none;
+  }
+  .link{
+    height:20%;
+    width:90%;
+  }
+}
+ 
+ }
+
+ }
+    }
+
+    }
+  }
+  
+ }
+
