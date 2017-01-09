@@ -1,0 +1,45 @@
+body {
+	background-color: pink
+}
+
+
+.float img {
+	display: block;
+}
+.float img.wrap {
+	max-width: 70%
+	margin: 30px 0px;
+}
+
+.float img.align-right {
+	float right;
+	margin-left: 30px;
+}
+@media (max-width: 768px){img{margin: 10%;}}
+
+.cat img {
+	display: block;
+
+}
+
+#nav
+     {
+      background: url('blackcat.JPG')
+      no-repeat scroll top center;          
+      background-color: none;	
+     width:100%;
+     height:66px;
+      box-shadow: 0px 1px 10px #5E5E5E;
+      position:fixed;
+      top:0px;
+    }
+
+.title
+ {
+display:none;
+ color:#EDEDED;
+ font-family:verdana;
+ font-size:25px;
+ width:350px;
+ margin-top:6px;
+ margin-left
