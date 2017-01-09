@@ -1,0 +1,40 @@
+body{background-image:url(gif.gif)
+	;background-repeat:no-repeat; background-position:50% 110%
+	;background-color: purple;
+	color: yellow;
+	z-index:-2;
+}
+body::before{
+	content: '';
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position:fixed;
+	background-color: rgba(255,255,255,0.7);
+	z-index:-1;
+}
+ul{text-align: center;}
+h1{text-align: center;
+font-family: helvetica;}
+h2{text-align: center;
+font-family: helvetica;}
+footer{text-align: center;}
+img{margin: auto;
+display: block;}
+html{cursor: url(cursor2.png), auto;}
+ul{list-style: url(cursor.gif);
+list-style-position: inside;}
+audio{margin: auto;
+display: block;}
+@media (max-width: 768px){body{background-image: url(sadder.jpg) ;
+background-repeat:no-repeat;
+background-position: 50% 110%;
+background-color: gray;
+color: black;}
+}
+
+img:hover{background-image: url(donate.jpg); 
+	margin: auto;
+	display: block;}
+p{font-family: helvetica;}
